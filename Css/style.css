@@ -14,6 +14,20 @@ header {
     left: 0%;
     z-index: -1;
 }
+
+.style-hover {
+    padding: 25px;
+}
+
 .style-hover:hover {
     background-color: #CBAC6B;
+}
+
+.style-lien:hover {
+    background-color: unset !important;
+    color: #CBAC6B !important;
+}
+
+#logo {
+    width: 85%;
 }
