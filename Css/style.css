@@ -41,3 +41,8 @@ header {
 .style-footer{
     background-color: #282828;
 }
+
+.style-p-hover:hover{
+    cursor: pointer;
+    color: #CBAC6B;
+}
