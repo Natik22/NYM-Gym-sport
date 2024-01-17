@@ -55,6 +55,11 @@ header {
     background: url(../assets/images/activites/bg_activite_4.jpg);
 }
 
+/*----------- Style section partenaire --------------*/
+.style-section-partenaire{
+    background-color: #282828;
+}
+
 /*----------- Style footer -----------*/
 .style-footer{
     background-color: #282828;
