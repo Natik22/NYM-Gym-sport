@@ -31,3 +31,9 @@ header {
 #logo {
     width: 85%;
 }
+
+/*----------- Style footer -----------*/
+
+.style-footer{
+    background-color: #282828;
+}
