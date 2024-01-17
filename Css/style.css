@@ -37,6 +37,24 @@ header {
     text-align: center;
 }
 
+/*----------- Style section présentation d'activité ----------*/
+#act1 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_1.jpg) center;
+}
+#act2 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_2.jpg);
+}
+#act3 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_3.jpg);
+}
+#act4 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_4.jpg);
+}
+
 /*----------- Style footer -----------*/
 .style-footer{
     background-color: #282828;
@@ -46,3 +64,5 @@ header {
     cursor: pointer;
     color: #CBAC6B;
 }
+
+
