@@ -41,3 +41,20 @@ header {
 .style-footer{
     background-color: #282828;
 }
+
+#act1 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_1.jpg) center;
+}
+#act2 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_1.jpg);
+}
+#act3 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_1.jpg);
+}
+#act4 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_1.jpg);
+}
