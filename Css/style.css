@@ -37,24 +37,37 @@ header {
     text-align: center;
 }
 
+/*----------- Style section présentation d'activité ----------*/
+#act1 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_1.jpg) center/cover no-repeat;
+}
+#act2 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_2.jpg) center/cover no-repeat;
+}
+#act3 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_3.jpg) center/cover no-repeat;
+}
+#act4 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_4.jpg) center/cover no-repeat;
+}
+
+/*----------- Style section partenaire --------------*/
+.style-section-partenaire{
+    background-color: #282828;
+}
+
 /*----------- Style footer -----------*/
 .style-footer{
     background-color: #282828;
 }
 
-#act1 {
-    height: 450px;
-    background: url(../assets/images/activites/bg_activite_1.jpg) center;
+.style-p-hover:hover{
+    cursor: pointer;
+    color: #CBAC6B;
 }
-#act2 {
-    height: 450px;
-    background: url(../assets/images/activites/bg_activite_1.jpg);
-}
-#act3 {
-    height: 450px;
-    background: url(../assets/images/activites/bg_activite_1.jpg);
-}
-#act4 {
-    height: 450px;
-    background: url(../assets/images/activites/bg_activite_1.jpg);
-}
+
+
