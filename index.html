@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="p-0 navbar navbar-expand-lg navbar-light bg-transparent">
+        <nav class="p-0 navbar navbar-expand-lg position-absolute z-2">
             <div class="p-0 mx-5 container-fluid">
                 <a class="navbar-brand" href="index.html"><img id="logo" src="assets/images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,27 +20,27 @@
                 <div class="navbar-collapse justify-content-around" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item style-hover">
-                            <a class="fw-bold nav-link active text-light text-uppercase" aria-current="page" href="#">L'équipe</a>
+                            <a class="fw-bold nav-link active text-light text-uppercase" aria-current="page" href="404.html">L'équipe</a>
                         </li>
                         <li class="nav-item dropdown style-hover">
                             <a class="fw-bold nav-link dropdown-toggle text-light text-uppercase"  href="presentation.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Les Activités
                             </a>
                             <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
-                                <li><a class="fw-bold dropdown-item text-light text-uppercase style-lien" href="#">Le Cycling</a></li>
-                                <li><a class="fw-bold dropdown-item text-light text-uppercase style-lien" href="#">Le Training Fonctionnel</a></li>
-                                <li><a class="fw-bold dropdown-item text-light text-uppercase style-lien" href="#">Le Crossfit</a></li>
-                                <li><a class="fw-bold dropdown-item text-light text-uppercase style-lien" href="#">Personal Training-Coach Personnel</a></li>
+                                <li><a class="fw-bold dropdown-item text-light text-uppercase style-lien" href="presentation.html">Le Cycling</a></li>
+                                <li><a class="fw-bold dropdown-item text-light text-uppercase style-lien" href="presentation.html">Le Training Fonctionnel</a></li>
+                                <li><a class="fw-bold dropdown-item text-light text-uppercase style-lien" href="presentation.html">Le Crossfit</a></li>
+                                <li><a class="fw-bold dropdown-item text-light text-uppercase style-lien" href="presentation.html">Personal Training-Coach Personnel</a></li>
                             </ul>
                         </li>
                         <li class="nav-item style-hover">
-                            <a class="fw-bold nav-link text-light text-uppercase" href="#">Nos Offres</a>
+                            <a class="fw-bold nav-link text-light text-uppercase" href="404.html">Nos Offres</a>
                         </li>
                         <li class="nav-item style-hover">
-                            <a class="fw-bold nav-link text-light text-uppercase" href="#">Planning</a>
+                            <a class="fw-bold nav-link text-light text-uppercase" href="404.html">Planning</a>
                         </li>
                         <li class="nav-item style-hover">
-                            <a class="fw-bold nav-link text-light text-uppercase" href="#">Le Blog</a>
+                            <a class="fw-bold nav-link text-light text-uppercase" href="404.html">Le Blog</a>
                         </li>
                         <li class="nav-item style-hover">
                             <a class="fw-bold nav-link text-light text-uppercase" href="contact.html">Contact</a>
@@ -48,23 +48,49 @@
                     </ul>
                 </div>
                 <div class="navbar-nav">
-                    <li class="nav-item">
+                    <div class="nav-item">
                       <a class="fw-bold nav-link text-light text-uppercase" href="#"> <i class="fa-solid fa-mobile-screen-button" style="color: #ffffff;"></i> 05 59 47 84 18</a>
-                    </li>
+                    </div>
                 </div>
                 <div class="navbar-nav">
-                    <li class="nav-item d-flex">
+                    <div class="nav-item d-flex">
                       <a class="nav-link" href="#"><i class="fa-brands fa-instagram fa-flip" style="color: #ffffff;"></i></a>
                       <a class="nav-link" href="#"><i class="fa-brands fa-facebook fa-flip" style="color: #ffffff;"></i></a>
                       <a class="nav-link" href="#"><i class="fa-brands fa-tiktok fa-flip" style="color: #f7f7f7;"></i></a>
-                    </li>
+                    </div>
                 </div>
             </div>
         </nav>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/slider/slide_1.jpg" class="d-block w-100" alt="slider-1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/slider/slide_2.jpg" class="d-block w-100" alt="slide_2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/slider/slide_3.jpg" class="d-block w-100" alt="slide_3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
-    <section class="container">
+    <section class="container style-marge-section">
         <h2 class="text-center">LE STUDIO SPORT & COACHING,<br> SALLE DE SPORT, FITNESS ET CROSSFIT A BIARRITZ.</h2>
-        <img class="d-block mx-auto p-3" src="assets/images/bg_titre.jpg">
+        <img class="d-block mx-auto p-3" src="assets/images/bg_titre.jpg" alt="">
         <div class="container-fluid">
             <p class="px-5">
                 Aujourd'hui beaucoup de salles de sport vendent des abonnements où vous avez accès à tous les services du club (cours collectifs, plateau musculation...) mais combien vous
@@ -121,11 +147,11 @@
     </main>
     <section class="container">
         <h2 class="text-center">NOS DERNIERES ACTUALITES</h2>
-        <img class="d-block mx-auto p-3" src="assets/images/bg_titre.jpg">
+        <img class="d-block mx-auto p-3" src="assets/images/bg_titre.jpg" alt="">
      <div class="d-flex flex-row align-items-centre justify-content-around gy-0 w-100 ">
         <div class="row row-cols-12 row-cols-sm-3 gx-0 gy-0">
             <div class="card">
-                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg">
+                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg" alt="">
                 <div class="card-body">
                     <p class="mt-5 mb-0 fw-bold">28 OCTOBRE 2018</p>
                     <h5 class="crad-title">Titre de l'actualité sur une ou deux lignes en majuscules</h5>
@@ -135,7 +161,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg">
+                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg" alt="">
                 <div class="card-body">
                     <p class="mt-5 mb-0 fw-bold">22 OCTOBRE 2018</p>
                     <h5 class="crad-title">Titre de l'actualité sur une ou deux lignes en majuscules</h5>
@@ -145,7 +171,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg">
+                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg" alt="">
                 <div class="card-body">
                     <p class="mt-5 mb-0 fw-bold">18 OCTOBRE 2018</p>
                     <h5 class="crad-title">Titre de l'actualité sur une lignes </h5>
