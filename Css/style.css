@@ -4,17 +4,6 @@
     box-sizing: border-box;
 }
 
-header {
-    position: relative;
-}
-
-#back1 {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: -1;
-}
-
 .style-hover {
     padding: 25px;
 }
