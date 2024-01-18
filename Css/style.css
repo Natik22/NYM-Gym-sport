@@ -1,11 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+h2{
+    font-family: 'Bebas Neue';
+}
+
+.style-a{
+    font-family: 'Bebas Neue';
+}
+
+.style-p{
+    font-family: 'Bebas Neue';
+}
+
+.dropdown-menu{
+    border-radius: 0 !important;
+}
+
+#top-67{
+    top: 67% !important;
+}
+
+.btn{
+    font-family: 'Bebas Neue' !important;
+    width: 10% !important;
+    border-radius: 0 !important;
+}
+
 .style-hover {
-    padding: 25px;
+    padding: 19px;
 }
 
 .style-hover:hover {
@@ -24,6 +52,10 @@
 .style-h2 {
     width: 43%;
     text-align: center;
+}
+
+.style-h5{
+    font-family: 'Bebas Neue' !important;
 }
 
 /*----------- Style section présentation d'activité ----------*/
@@ -59,6 +91,11 @@
     color: #CBAC6B;
 }
 
+/*--------- Style media query -------------*/
 
-
-
+@media  screen and (max-width: 576px) {
+    #navbarSupportedContent {
+        background-color: black !important;
+    }
+    
+}
