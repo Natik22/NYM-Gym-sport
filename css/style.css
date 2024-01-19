@@ -58,14 +58,34 @@ h2{
     font-family: 'Bebas Neue' !important;
 }
 
-/*-----------Style du bouton du carrousel principal----------*/
+/*-----------Style du bouton des carousel ----------*/
 
-.btm1 {
-    width: 15px !important;
-    height: 15px !important;
-    border-radius: 75% !important;   
+.btnc1 {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 75% !important; 
+    border: 1px solid white !important;
+    background: none !important;
 }
 
+.active.btnc1 {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 75% !important; 
+    border: 1px solid white !important;
+    background: white !important;
+}
+
+.active.btnc1:hover {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 75% !important; 
+    border: 1px solid white !important;
+    background: white !important;
+}
+
+
+ 
 /*----------- Style section présentation d'activité ----------*/
 #act1 {
     height: 450px;
@@ -126,3 +146,9 @@ h2{
 h3{
     font-family: 'Bebas Neue';
 }
+
+.btnm1 {
+    background-color: #CBAC6B !important;
+    border: solid #CBAC6B !important;
+}
+
