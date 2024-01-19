@@ -94,9 +94,21 @@ h2{
     background-color: #282828;
 }
 
+.style-li-footer {
+    list-style: symbols("\2015");
+}
+
+.style-li-footer:hover{
+    color: #CBAC6B;
+}
+
 .style-p-hover:hover{
     cursor: pointer;
     color: #CBAC6B;
+}
+
+.style-hover-a:hover{
+    color: #CBAC6B !important;
 }
 
 /*--------- Style media query -------------*/
