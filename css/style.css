@@ -22,7 +22,7 @@ h2{
     border-radius: 0 !important;
 }
 
-#top-67{
+.top-67{
     top: 67% !important;
 }
 
@@ -201,6 +201,7 @@ h3{
 }
 
 .btnm1 {
+    width: 30% !important;
     background-color: #CBAC6B !important;
     border: solid #CBAC6B !important;
 }
