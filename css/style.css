@@ -58,7 +58,7 @@ h2{
     font-family: 'Bebas Neue' !important;
 }
 
-/*-----------Style du bouton des carousel ----------*/
+/*----------- Style du bouton des carousel ----------*/
 
 .btnc1 {
     width: 10px !important;
@@ -189,7 +189,9 @@ h2{
     #navbarSupportedContent {
         background-color: black !important;
     }
-    
+    .btn{
+        width: 30% !important;
+    }
 }
 
 /*--------- Page de Présentation -------------*/
@@ -206,5 +208,5 @@ h3{
 .cacarousel {
     width: 500px !important;
     height:760px !important;
-  }
+}
 
