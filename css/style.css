@@ -135,6 +135,7 @@ h2{
 
 .animation {
     position: relative;
+    padding-bottom: 2%;
 }
 
 .animation::after{
