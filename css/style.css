@@ -107,6 +107,7 @@ h2{
 /*------------ Annimation underline "en savoir plus" ---------*/
 .animation-a {
     position: relative;
+    padding-bottom: 4%;
 }
 
 .animation-a::after{
@@ -115,10 +116,19 @@ h2{
 
 .animation-a::after{
     content: '';
-    width: 8%;
+    width: 15%;
     border-bottom: solid;
     background-color: white;
     margin-top: 1% ;
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+    transition: width 0.7s ease 0s, left 0.7s ease 0s;
+}
+
+.animation-a:hover::after{
+    width: 155%;
+    left: -30%;
 }
 
 /*------------ Annimation underline "Lire la suite" ----------*/
