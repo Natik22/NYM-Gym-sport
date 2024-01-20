@@ -84,7 +84,24 @@ h2{
     background: url(../assets/images/activites/bg_activite_4.jpg) center/cover no-repeat;
 }
 
-/*------------ Annimation "en savoir plus" ----------*/
+/*------------ Annimation underline "en savoir plus" ---------*/
+.animation-a {
+    position: relative;
+}
+
+.animation-a::after{
+    transition: all 1s;
+}
+
+.animation-a::after{
+    content: '';
+    width: 8%;
+    border-bottom: solid;
+    background-color: white;
+    margin-top: 1% ;
+}
+
+/*------------ Annimation underline "Lire la suite" ----------*/
 
 .animation {
     position: relative;
@@ -143,7 +160,6 @@ h2{
     }
     
 }
-
 
 /*--------- Page de Présentation -------------*/
 
