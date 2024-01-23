@@ -192,6 +192,9 @@ h2{
     .btn{
         width: 30% !important;
     }
+    .btn2{
+    display: none;
+}
 }
 
 /*--------- Page de Présentation -------------*/
@@ -210,4 +213,6 @@ h3{
     width: 500px !important;
     height:760px !important;
 }
+
+
 
