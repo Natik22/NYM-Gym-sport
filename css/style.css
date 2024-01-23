@@ -192,6 +192,9 @@ h2{
     .btn{
         width: 30% !important;
     }
+    .btn2{
+    display: none;
+}
 }
 
 /*--------- Page de Présentation -------------*/
@@ -219,3 +222,4 @@ h3{
 .h-textarea{
     height: 300px !important;
 }
+
