@@ -119,16 +119,40 @@ form.addEventListener("submit", (e)=>{
 
     //Nous vérifions que chaque champs du formulaire soit correct, si tout est correct tu envoyer le mail
     if (nameValid && firstnameValid && phonenumberValid && emailValid && subjectValid && messageValid) {
-        //Si tout les champs sont correct, le formulaire est soumis et un mail est envoyé
-        Email.send({
-            SecureToken : "5b822f3e-fb7a-47fb-afdb-c7d53d47472e",
-            To : "maxime.salins@gmail.com",
-            From : "maxime.salins@gmail.com",
-            Subject : "test",
-            Body : "On test si ça marche"
-        }).then(
-          message => alert(message, "Votre message a bien été envoyée")
-        );
+        //Nous devons récupèrer les infos du formulaire
+        let name = userName.value;
+        let prenom = userFirstname.value;
+        let phone = userPhonenumber.value;
+        let email = userEmail.value;
+        let sujet = userSubject.value;
+        let discribe = userMessage.value;
+        
+        //Nous allons mettre ces informations dans un object appeler infoContact
+        let infoContact = {
+            name : name,
+            prenom : prenom,
+            phone : phone,
+            email : email,
+            sujet : sujet,
+            discribe : discribe,
+        };
+
+        //Nous allons initier une fonction permettant d'envoyer un mail
+        function senMail(object) {
+            console.log(object);
+            return Email.send({
+                SecureToken : "5b822f3e-fb7a-47fb-afdb-c7d53d47472e",
+                To : "maxime.salins@gmail.com",
+                From : "maxime.salins@gmail.com",
+                Subject : object.sujet,
+                Body : "Nom: " + object.name + " ,prenom: " + object.prenom + " ,tel: " + object.phone + " ,email: " + object.email + " ,message: " + object.discribe
+            }).then(
+              message => alert(message)
+            );
+        };
+
+        //Appel de la fonction senMail()
+        senMail(infoContact);
     } else {
         //Sinon le programme lance une alert pour demander à l'utilisateur de rentrer correctement les champs du formulaire 
         alert ("Tout les champs ne sont pas rentrés ou ne sont pas valide, mercie de rentrer correctement les champs du formulaire");
