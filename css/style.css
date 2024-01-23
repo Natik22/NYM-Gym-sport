@@ -211,3 +211,11 @@ h3{
     height:760px !important;
 }
 
+/*----- Style formulaire de contact ------*/
+.color-btn{
+    background-color: #CBAC6B !important;
+}
+
+.h-textarea{
+    height: 300px !important;
+}

@@ -40,6 +40,7 @@ function addClass(input , regex , value) {
     }
 };
 
+//Nous allons faire les écouteurs d'événement permettant d'écouter les événnements lorsque l'utilisateur rentre une donnée dans les inputs
 userName.addEventListener("input", (e)=> {
     addClass(userName, UserRegex, e.target.value);
     if (userName.classList.contains("is-valid")) {
@@ -52,16 +53,44 @@ userName.addEventListener("input", (e)=> {
 userFirstname.addEventListener("input", (e)=> {
     addClass(userFirstname, UserRegex, e.target.value);
     if (userFirstname.classList.contains("is-valid")) {
-        nameValid = true
+        firstnameValid = true
     } else {
-        nameValid = false
+        firstnameValid = false
     }
 });
 
+userPhonenumber.addEventListener("input", (e)=> {
+    addClass(userPhonenumber, PhoneNumberRegex, e.target.value);
+    if (userPhonenumber.classList.contains("is-valid")) {
+        phonenumberValid = true
+    } else {
+        phonenumberValid = false
+    }
+});
 
-// console.log(addClass(userName, UserRegex));
-// console.log(addClass(userFirstname, UserRegex));
-// console.log(addClass(userPhonenumber, PhoneNumberRegex));
-// console.log(addClass(userEmail, EmailRegex));
-// console.log(addClass(userMessage, MessageRegex));
-// console.log(addClass(userSubject, UserRegex));
+userEmail.addEventListener("input", (e)=> {
+    addClass(userEmail, EmailRegex, e.target.value);
+    if (userEmail.classList.contains("is-valid")) {
+        emailValid = true
+    } else {
+        emailValid = false
+    }
+});
+
+userSubject.addEventListener("input", (e)=> {
+    addClass(userSubject, SujetRegex, e.target.value);
+    if (userSubject.classList.contains("is-valid")) {
+        subjectValid = true
+    } else {
+        subjectValid = false
+    }
+});
+
+userMessage.addEventListener("input", (e)=> {
+    addClass(userMessage, MessageRegex, e.target.value);
+    if (userMessage.classList.contains("is-valid")) {
+        messageValid = true
+    } else {
+        messageValid = false
+    }
+});
